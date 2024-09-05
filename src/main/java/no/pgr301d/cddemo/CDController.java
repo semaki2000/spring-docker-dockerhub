@@ -8,7 +8,7 @@ class CDController {
 
     @GetMapping(path = "/")
     public String hello() {
-        return "Hello";
+        return "Hello this is a test";
     }
 
 }
